@@ -1,1 +1,1 @@
-compiles a C file but does not link
+script generates the assembly code
