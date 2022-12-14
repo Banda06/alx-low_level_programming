@@ -1,22 +1,20 @@
 #include "main.h"
 /**
- * a function that prints 10 the alphabet
- *
- * Returns: x10 a-z
+ * main - entry point
+ * Return: Always 0
  */
-void print_alphabet_x10(void)
-{
-	int n, co;
 
-	co = 0;
-	
-	while (co < 10)
-	{
-		for (n = 'a'; n <= 'z'; n++)
-		{
-			_putchar(n);
-		}
-		co++;
-		_putchar('\n');
-	}
-}				
+int main(void)
+{
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar('\n');
+	return (0);
+
+}
