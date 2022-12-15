@@ -1,17 +1,12 @@
-#include <stdlib.h>
-
-#include <time.h>
-
 #include <stdio.h>
-
+#include <stdlib.h>
+#include <time.h>
 /**
  * main - prints if number is positive, zero or negetive
  * Return: Always (Success)
  *
  */
-
 int main(void)
-
 {
 	int n;
 
@@ -31,5 +26,4 @@ int main(void)
 	printf("%d is negetive\n", n);
 	}
 	return (0);
-
 }
