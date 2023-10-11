@@ -1,9 +1,10 @@
 #include "main.h"
+#include <ctype.h>
 /**
- * _islower -tests whether a character is a
- * lowercase letter from the English alphabet.
+ * _islower - chech if the given character is lower case.
+ * @c: character to test.
  *
- * Return: 1 if it is lowercase, 0 if not lowercase letter.
+ * Return: 1 if (true), else 0 (false)
  */
 int _islower(int c)
 {
