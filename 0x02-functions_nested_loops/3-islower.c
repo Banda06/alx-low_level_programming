@@ -1,5 +1,5 @@
 #include "main.h"
-#include <ctype.h>
+
 /**
  * _islower - chech if the given character is lower case.
  * @c: character to test.
