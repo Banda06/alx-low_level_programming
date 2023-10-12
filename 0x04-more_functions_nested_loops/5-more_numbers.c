@@ -1,9 +1,7 @@
 #include "main.h"
 
 /**
- * more_numbers - nmbr fct
- *
- * Return: no return
+ * more_numbers - Prints the numbers zero through to fourteen.
  */
 void more_numbers(void)
 {
