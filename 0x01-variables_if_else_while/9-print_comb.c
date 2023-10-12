@@ -1,23 +1,25 @@
 #include <stdio.h>
 /**
- * main - Entry point
- * Description: 'Print numbers with comas and spaces'
- * Return: 0
+ * main - prints all possible combinations of single digit numbers.
+ *
+ * Return: 0 on success
  */
 int main(void)
 {
-	int j;
+	int i = '0';
 
-	for (j = 48; j <= 57; j++)
+	while (i <= '9')
 	{
-		putchar(j);
-		if (j == 57)
+		putchar(i);
+		
+		if (i != '9')
 		{
-			continue;
+			putchar(',');
+			putchar(' ');
 		}
-		putchar(',');
-		putchar(' ');
+		++i;
 	}
 	putchar('\n');
-	return (0)i;
+
+	return (0);
 }
