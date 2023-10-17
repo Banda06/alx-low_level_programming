@@ -1,19 +1,19 @@
 #include "main.h"
 /**
- * print_rev - Prints a string in reverse.
- * @s: string to be reserved.
+ * print_rev - Function that prints string in reverse order.
+ * @s: Address of the string to be printed.
  *
- * Return
+ * Return: 0 (success).
  */
 void print_rev(char *s)
 {
-	int len = 0, i;
+	int a = 0;
 
-	while (s[i++])
-		len++;
+	while (s[a] != '\0')
+		a++;
 
-	for (i = len - 1; i >= 0; i--)
-		_putchar(s[i]);
+	for (a = a - 1; a >= 0; a--)
+		_putchar(s[a]);
 
 	_putchar('\n');
 }
