@@ -1,1 +1,1 @@
-Learning more pointers, arrays and strings
+More pointers, arrays, strings
