@@ -67,7 +67,6 @@ void printASCII(char *b, int start, int end)
  *
  *
  * Return: No return.
-
  */
 
 void print_buffer(char *b, int size)
