@@ -6,8 +6,7 @@
  * print_list - function that prints all the elements of a list_t.
  * @h: pointer to the list.
  *
- * if str is NULL print [0] (nil).
- * allowed to use printf.
+ * Description - function prints prints elements of list_t.
  *
  * Return: the number of nodes.
  * @return size_t
